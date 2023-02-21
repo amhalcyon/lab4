@@ -4,4 +4,4 @@ b2 = int(input("Base, second value: "))
 
 a = ((b1+b2)/2)*h
 
-print("Area: ", a)
+print("Area is: ", a)
