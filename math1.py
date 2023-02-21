@@ -1,5 +1,5 @@
 import math
 
-x = int(input())
+x = int(input("Degree: "))
 
-print(math.radians(x))
+print("Radians:",math.radians(x))
