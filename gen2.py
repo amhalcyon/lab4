@@ -1,9 +1,12 @@
 def even():
-    for i in range(x):
+    for i in range(n+1):
         if i%2 == 0:
             yield i
 
-x = int(input())
+n = int(input())
 
 for i in even():
-    print(i, end=',')
+    if i < n-1:
+        print(i, end=', ')
+    else:
+        print(i)
